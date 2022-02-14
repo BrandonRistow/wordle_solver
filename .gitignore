@@ -1,0 +1,20 @@
+# VScode files
+*.code-workspace
+.vscode
+
+# python
+__pycache__
+.pytest_cache
+/venv/
+
+# Editor swap files
+*.swp
+
+# intellij
+.idea
+
+# Mac
+.DS_Store
+
+# Project
+/.env

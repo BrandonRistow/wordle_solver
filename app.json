@@ -1,0 +1,10 @@
+{
+  "name": "Ramp Wordle Contestant",
+  "description": "This is the Ramp Wordle contestant.",
+  "image": "heroku/python",
+  "addons": [],
+  "env": {
+  },
+  "environments": {
+  }
+}
