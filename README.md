@@ -8,9 +8,7 @@ On `game day` (after submissions have closed) Ramp will generate several Wordles
 
 The image below illustrates the `game day` process.
 
-<p align="center">
-  <img src="wordle_challenge.jpg" width="600"  alt="Wordle Contestant Flow"/>
-</p>
+<img src="wordle_challenge.jpg" width="600"  alt="Wordle Contestant Flow"/>
 
 * Ramp will create several Wordles of varying length between 4 and 9 letters long (inclusive). These Wordles are chosen at random from custom dictionaries hosted at S3 (see the file [config.py](/wordle_contestant/config.py) for the list dictionaries and their relevant S3 locations).
 * The id for a Wordle will be sent to each contestant service's `/games` endpoint (hosted on heroku).
