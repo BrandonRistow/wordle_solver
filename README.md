@@ -101,7 +101,7 @@ curl -X POST "https://ramp-wordle-server.herokuapp.com/wordles" -H "accept: appl
 }
 ```
 
-2. Attempt to solve the Wordle by making guesses with against `/attempts` until you get a result where every letter has been found (i.e. it's all `h`s):
+2. Attempt to solve the Wordle by making guesses with the endpoint `/attempts` until you get a result where every letter has been found (i.e. it's all `h`s):
 ```shell
 curl -X POST "https://ramp-wordle-server.herokuapp.com/attempts" -H "accept: application/json" -H "X-API-Key: xxxxx" -H "Content-Type: application/json" -d "{\"guess\":\"prize\",\"wordle_id\":51}"
 ```
