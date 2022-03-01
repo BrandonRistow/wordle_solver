@@ -40,6 +40,7 @@ class Index(Resource):
     @check_apikey
     def post(self, **kwargs):
         """
+        DO NOT MODIFY - this is used to validate your Heroku app configuration.
         Check app availability and API key.
         """
 
