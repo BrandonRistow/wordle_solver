@@ -5,7 +5,7 @@ from flask_restful import Api, Resource
 from werkzeug.exceptions import Unauthorized
 
 from wordle_contestant import config
-from wordle_contestant.game import run_game
+from wordle_contestant.game import *
 
 api = Api()
 
