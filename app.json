@@ -4,9 +4,9 @@
   "image": "heroku/python",
   "addons": [],
   "env": {
-    "API_Key": "08fc77b5-748b-44e4-8d36-ed95d0257b2f"
+    "API_KEY": "08fc77b5-748b-44e4-8d36-ed95d0257b2f"
   },
   "environments": {
-    "API_Key":  "08fc77b5-748b-44e4-8d36-ed95d0257b2f"
+    "API_KEY":  "08fc77b5-748b-44e4-8d36-ed95d0257b2f"
   }
 }
