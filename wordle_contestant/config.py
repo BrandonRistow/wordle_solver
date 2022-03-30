@@ -10,5 +10,5 @@ DICTIONARIES = {
     "6": "https://ramp-python-challenge.s3.eu-west-1.amazonaws.com/wordle_6.csv",
     "7": "https://ramp-python-challenge.s3.eu-west-1.amazonaws.com/wordle_7.csv",
     "8": "https://ramp-python-challenge.s3.eu-west-1.amazonaws.com/wordle_8.csv",
-    "9": "https://ramp-python-challenge.s3.eu-west-1.amazonaws.com/wordle_9.csv",
+    "9": "https://ramp-python-challenge.s3.eu-west-1.amazonaws.com/wordle_9.csv"
 }
